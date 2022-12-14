@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+/* border-bottom: 1px solid #f2f2f2; */
+
+.ToDoApp {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+h1 {
+  color: #f1356d;
+}
+
+.add-task{
+  display:flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: #f1356d;
+  border-radius: 15px;
+  color: #fff;
+  width: 160%;
+}
+
+.add-textbox{
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 25px;
+}
+
+.show-task{
+  margin-top: 25px;
+}
+
+.show-task-map{
+  margin-top:10px
+}
+
+.show-task-input{
+  margin-right: 10px;
+  color: #333;
+  accent-color: #f1356d;
+}
+
+.show-task-input:checked~label.strikethrough {
+  text-decoration: line-through;
+  color: #f1356d;
+}
+
