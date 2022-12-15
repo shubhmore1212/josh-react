@@ -23,6 +23,7 @@ h1 {
 .add-task{
   display:flex;
   flex-direction: row;
+  padding-top: 20px;
 }
 
 button {
