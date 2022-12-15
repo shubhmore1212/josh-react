@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useCallback } from "react";
+import React, { useState, useCallback } from "react";
 
 import TodoComponent from "./components";
 
